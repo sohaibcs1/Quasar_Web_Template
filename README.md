@@ -29,6 +29,9 @@ b.	Server side:
 ```bash
 node .\server.js
 ```
+
+### Create Db in postgress of name 'dataCollection'--> uncomment sequelize.sync to force: true
+
 ### After Postgress Installation uncomment: To Create User In DB
 
 // API("auth.createUser", { username: "sample", password: "123", role: "user" });
